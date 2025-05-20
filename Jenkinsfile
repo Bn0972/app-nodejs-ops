@@ -1,4 +1,4 @@
-Jenkinsfilepipeline {
+pipeline {
     agent any
     environment {
         DOCKER_IMAGE = 'nodejs-app'
