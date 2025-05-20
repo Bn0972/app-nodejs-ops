@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        DOCKER_IMAGE = 'nodejs-app'
+        DOCKER_IMAGE = 'app-nodejs'
     }
     stages {
         stage('Checkout') {
